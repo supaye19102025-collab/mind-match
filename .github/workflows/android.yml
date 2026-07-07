@@ -10,14 +10,12 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-    - name: Regenerate Missing Gradle Wrapper
-      run: |
-        gradle wrapper || npx gradle wrapper
-        chmod +x gradlew
     - name: Build with Gradle
-      run: ./gradlew assembleDebug
+      run: |
+        chmod +x gradlew || true
+        gradle assembleDebug || ./gradlew assembleDebug
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
         name: app-debug
-        path: app/build/outputs/apk/debug/app-debug.apk
+        path: "**/build/outputs/apk/debug/*.apk"
