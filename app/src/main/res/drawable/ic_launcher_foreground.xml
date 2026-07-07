@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Card 1 Backing shadow -->
+    <path
+        android:fillColor="#20000000"
+        android:pathData="M26,32 h30 a4,4 0 0 1 4,4 v40 a4,4 0 0 1 -4,4 h-30 a4,4 0 0 1 -4,-4 v-40 a4,4 0 0 1 4,-4 z" />
+
+    <!-- Card 1 (Left Card - Styled with brand Primary Purple) -->
+    <path
+        android:fillColor="#9F83FF"
+        android:pathData="M24,28 h30 a4,4 0 0 1 4,4 v40 a4,4 0 0 1 -4,4 h-30 a4,4 0 0 1 -4,-4 v-40 a4,4 0 0 1 4,-4 z" />
+    
+    <!-- Star on Card 1 (High contrast White) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M39,44 l1.5,3.5 l3.5,0.5 l-2.5,2.5 l0.8,3.5 l-3.3,-2 l-3.3,2 l0.8,-3.5 l-2.5,-2.5 l3.5,-0.5 z" />
+
+    <!-- Card 2 Backing shadow -->
+    <path
+        android:fillColor="#20000000"
+        android:pathData="M52,38 h30 a4,4 0 0 1 4,4 v40 a4,4 0 0 1 -4,4 h-30 a4,4 0 0 1 -4,-4 v-40 a4,4 0 0 1 4,-4 z" />
+
+    <!-- Card 2 (Right Card - Overlapping - Styled with clean High Contrast White) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,36 h30 a4,4 0 0 1 4,4 v40 a4,4 0 0 1 -4,4 h-30 a4,4 0 0 1 -4,-4 v-40 a4,4 0 0 1 4,-4 z" />
+
+    <!-- Star on Card 2 (Matching Purple) -->
+    <path
+        android:fillColor="#9F83FF"
+        android:pathData="M65,52 l1.5,3.5 l3.5,0.5 l-2.5,2.5 l0.8,3.5 l-3.3,-2 l-3.3,2 l0.8,-3.5 l-2.5,-2.5 l3.5,-0.5 z" />
+
+</vector>
